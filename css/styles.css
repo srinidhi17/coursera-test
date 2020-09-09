@@ -1,0 +1,126 @@
+body{
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', serif;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+#nav-link {
+  margin-top: 10px;
+}
+#nav-link a {
+  color:  #951C49;
+  text-align: right;
+}
+#nav-link a:hover {
+  background:  #E7E7E7;
+}
+#nav-link a span {
+  font-size: 20px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-navbar a { /* Collapsed nav menu text */
+    font-size: 2.0em;
+  }
+  
+#collapsable-navbar a  { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #call-btn > a {
+    font-size: 1.0em;
+    display: block;
+    margin:  20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #6c757d;
+    color: #61122f;
+  }
+
+  /****Our Menu****/
+  .text-center{
+    font-size: 30px;
+  }
+
+   #button{
+    height: 1000px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    overflow: hidden;
+    border: 2px solid #3F0C1F;
+    background-color: #6c757d;
+    margin-bottom: 60px;
+    box-shadow: 0 0px 70px #cccccc;
+  }
+     #button1{
+    height: 1000px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid #3F0C1F;
+    background-color: #6c757d;
+    margin-bottom: 60px;
+    box-shadow: 0 0px 70px #cccccc;
+  }
+     #button2{
+    height: 1000px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid #3F0C1F;
+    background-color: #6c757d;
+    margin-bottom: 60px;
+    box-shadow: 0 0px 70px #cccccc;
+  }
+
+  /** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
