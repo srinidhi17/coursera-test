@@ -5,29 +5,79 @@ body{
   font-family: 'Oxygen', serif;
 }
 
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
 
+.navbar{
+  background-color: rgba(0,0,0,0);
+}
+
+/****Header*****/
+#header-nav{
+  background-color: #6c757d;
+  border-radius: 0;
+  border: 0;
+  margin-top: 0px;
+}
+
+h2{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #222;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
 .navbar-brand {
   padding-top: 25px;
 }
 
-#nav-link {
-  margin-top: 10px;
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
-#nav-link a {
-  color:  #951C49;
-  text-align: right;
+
+.navbar-toggler{
+  border: 2px solid black;
+  margin-right: 25px;
 }
-#nav-link a:hover {
-  background:  #E7E7E7;
+
+.navbar-toggler-icon{
+  background-color: white;
 }
-#nav-link a span {
-  font-size: 20px;
+
+li{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.menu-item{
+  padding: 0;
+  margin: 2px solid black;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: white;
+  display: block;
+}
+
+li > a{
+  color: #d39e00;
+}
+.menu-item:hover{
+  background-color: rgba(0,0,0,0);
+  color: rgba(0,0,0,0);
 }
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #557c3e;
-  font-size: 1.5em;
+  font-size: 2.0em;
+  border: 0;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -39,88 +89,30 @@ body{
   text-decoration: none;
 }
 
-#collapsable-navbar a { /* Collapsed nav menu text */
-    font-size: 2.0em;
-  }
-  
-#collapsable-navbar a  { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
 
-
-  #call-btn > a {
-    font-size: 1.0em;
-    display: block;
-    margin:  20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #6c757d;
-    color: #61122f;
-  }
-
-  /****Our Menu****/
-  .text-center{
+/****Our Menu****/
+.text-center{
     font-size: 30px;
-  }
-
-   #button{
-    height: 1000px;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    margin: 20px;
-    overflow: hidden;
-    border: 2px solid #3F0C1F;
-    background-color: #6c757d;
-    margin-bottom: 60px;
-    box-shadow: 0 0px 70px #cccccc;
-  }
-     #button1{
-    height: 1000px;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    overflow: hidden;
-    border: 2px solid #3F0C1F;
-    background-color: #6c757d;
-    margin-bottom: 60px;
-    box-shadow: 0 0px 70px #cccccc;
-  }
-     #button2{
-    height: 1000px;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    overflow: hidden;
-    border: 2px solid #3F0C1F;
-    background-color: #6c757d;
-    margin-bottom: 60px;
-    box-shadow: 0 0px 70px #cccccc;
-  }
-
-  /** HOME PAGE **/
-
-#main-content {
-    width: 92%;
-    margin-bottom: 30px;
-}
-#main-content h2 {
-    font-size: 2.9em;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 50px;
 }
 
-#main-content h3 {
-    font-size: 1.6em;
-    font-weight: bold;
-    margin-bottom: 1em;
+
+.content-box{
+  margin: 20px;
+  width: auto;
+  height: auto;
+  color: black;
+  background-color: #6c757d;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 20px;
 }
 
-#menu-tile, #specials-tile {
-    width: 360px;
-    margin: 0 auto 15px;
-  }
+.item-name{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.row{
+  margin: 20px;
+}
 
